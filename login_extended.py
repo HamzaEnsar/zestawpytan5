@@ -4,7 +4,7 @@ while True:
 
     def option_selection():
 
-        option = input("option gir: ")
+        option = input("Wybierz opcja: ")
 
         if option == "1":
             zarejestrowac.register(zarejestrowac.users)

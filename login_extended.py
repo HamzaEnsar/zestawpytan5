@@ -17,11 +17,11 @@ while True:
             if login in zarejestrowac.users and password in zarejestrowac.users.values():
                 print("correct")
                 print(zarejestrowac.users)
-                zarejestrowac.users.update({login: input("pass: ")})
+                zarejestrowac.users.update({login: input("Podaj nowy password:  ")})
                 print(zarejestrowac.users)
 
             else:
-                print("wrong id pass")
+                print("Zly id ")
         elif option == "4":
             login = input('Podaj swoj login: ')
             password = input('Podaj swoj haslo: ')
@@ -34,7 +34,7 @@ while True:
         elif option == "5":
             quit()
         else:
-            print("geçerli gir")
+            print("Nie ma taki opcji")
 
 
     option_selection()

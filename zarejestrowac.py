@@ -1,4 +1,4 @@
-users = {"Admin": "1234567", "hamoooooooo": "12sdfsfdsfd34567", "sdfsdsdfsfd": "sdfdsfsdf"}
+users = {"Admin": "1234567", "hamzaensar": "hamzaensarpassword", "hamzademirhan": "hamzademirhanpassword"}
 
 
 def register(dic):
